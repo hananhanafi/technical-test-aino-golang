@@ -1,5 +1,6 @@
 module github.com/hananhanafi/technical-test-aino-golang
 
+// +heroku goVersion go1.17
 go 1.17
 
 require (
