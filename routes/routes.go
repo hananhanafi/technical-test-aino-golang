@@ -1,6 +1,8 @@
 package routes
 
 import (
+	"net/http"
+
 	"github.com/hananhanafi/technical-test-aino-golang/controllers"
 
 	"github.com/labstack/echo/v4"
@@ -15,6 +17,10 @@ func Init() *echo.Echo {
 
 	IsAuthenticated := middleware.JWTWithConfig(middleware.JWTConfig{
 		SigningKey: []byte("secret"),
+	})
+
+	e.GET("/", func(c echo.Context) error {
+		return c.String(http.StatusOK, "Welcome to our server!")
 	})
 
 	// user group
