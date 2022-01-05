@@ -14,8 +14,8 @@ func main() {
 	e := routes.Init()
 
 	port := os.Getenv("PORT")
-	if len(port) == 0 {
-		port = "8080"
+	if port == "" {
+		port = "9000" // Default port if not specified
 	}
 	// run server
 	e.Logger.Fatal(e.Start(":" + port))
