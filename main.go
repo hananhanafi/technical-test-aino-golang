@@ -1,8 +1,8 @@
 package main
 
 import (
-	"technical-test-aino-golang/database"
-	"technical-test-aino-golang/routes"
+	"github.com/hananhanafi/technical-test-aino-golang/database"
+	"github.com/hananhanafi/technical-test-aino-golang/routes"
 )
 
 func main() {

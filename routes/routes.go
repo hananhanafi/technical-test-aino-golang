@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"technical-test-aino-golang/controllers"
+	"github.com/hananhanafi/technical-test-aino-golang/controllers"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

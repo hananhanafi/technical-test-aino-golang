@@ -2,7 +2,8 @@ package controllers
 
 import (
 	"net/http"
-	"technical-test-aino-golang/models"
+
+	"github.com/hananhanafi/technical-test-aino-golang/models"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"

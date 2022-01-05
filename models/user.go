@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"fmt"
 	"net/http"
-	"technical-test-aino-golang/database"
-	"technical-test-aino-golang/helpers"
+
+	"github.com/hananhanafi/technical-test-aino-golang/database"
+	"github.com/hananhanafi/technical-test-aino-golang/helpers"
 
 	"github.com/go-playground/validator/v10"
 )

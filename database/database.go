@@ -2,7 +2,8 @@ package database
 
 import (
 	"database/sql"
-	"technical-test-aino-golang/config"
+
+	"github.com/hananhanafi/technical-test-aino-golang/config"
 
 	_ "github.com/go-sql-driver/mysql"
 )
