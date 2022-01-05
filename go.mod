@@ -1,4 +1,4 @@
-module technical-test-aino-golang
+module github.com/hananhanafi/technical-test-aino-golang
 
 go 1.17
 
